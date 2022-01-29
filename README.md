@@ -1,6 +1,6 @@
 # [CellSeg](http://dx.doi.org/10.1186/s12859-022-04570-9)
 
-Downstream fork for Docker
+Fork for Docker
 
 ```
 docker pull andrewrech/cellseg:latest
