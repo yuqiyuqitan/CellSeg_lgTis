@@ -1,0 +1,3 @@
+[submodule "src/oldsrc/CODEX"]
+	path = src/oldsrc/CODEX
+	url = https://github.com/andrewrech/CODEX
