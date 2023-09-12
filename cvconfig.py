@@ -81,7 +81,7 @@ class CVConfig():
       if not os.path.exists(input_path):
         raise NameError("Error: input directory '{}' doesn't exist!".format(input_path))
       
-      output_path = os.path.join(input_path, 'CVcol_2023_01_09_DAPI_3px')
+      output_path = os.path.join(input_path, 'CVcol_' + str(GROWTH_PIXELS_PLANE) + 'px')
       
       self.DIRECTORY_PATH = os.path.join(input_path, subdir)
       self.CHANNEL_PATH = os.path.join(input_path, 'channelNames.txt')
